@@ -22,10 +22,13 @@
         }
         section {
             padding: 20px;
-            text-align: center;
+            text-align: left;
         }
         section h2 {
             color: #333;
+        }
+        section h3 {
+            color: #0073e6;
         }
         footer {
             text-align: center;
@@ -48,8 +51,18 @@
     </header>
     
     <section>
-        <h2>Modelos de Algoritmos Lineales</h2>
-        <p>En esta sección puedes incluir detalles sobre modelos como la regresión lineal, regresión logística, análisis discriminante lineal (LDA), y otros algoritmos que dependen de relaciones lineales.</p>
+        <h2>Modelos y Algoritmos Lineales</h2>
+
+        <h3>Descenso de Gradiente y Regresión Lineal</h3>
+        <p>El algoritmo de <strong>Descenso de Gradiente</strong> es uno de los métodos más utilizados para optimizar funciones en machine learning. Su principal objetivo es minimizar la función de error ajustando los parámetros del modelo de forma iterativa. 
+        <br>
+        La <strong>Regresión Lineal</strong> es un algoritmo supervisado que modela la relación entre una variable dependiente y una o más variables independientes. La fórmula general de la regresión lineal es: <code>y = mx + b</code>, donde <code>m</code> es la pendiente y <code>b</code> la intersección en el eje y. Este algoritmo es adecuado para problemas donde la relación entre las variables es lineal.</p>
+        
+        <h3>Regresión Logística</h3>
+        <p>La <strong>Regresión Logística</strong> se utiliza para resolver problemas de clasificación binaria (dos clases). A diferencia de la regresión lineal, que predice valores continuos, la regresión logística usa la función sigmoide para limitar los resultados a probabilidades entre 0 y 1. El modelo puede ser extendido para problemas de clasificación multiclase utilizando técnicas como la regresión logística multinomial.</p>
+        
+        <h3>Análisis Discriminante Lineal (LDA)</h3>
+        <p>El <strong>Análisis Discriminante Lineal (LDA)</strong> es una técnica que se utiliza para la reducción de la dimensionalidad y para la clasificación de datos. LDA maximiza la separación entre diferentes clases proyectando los datos a un espacio de menor dimensión en el cual las clases son más diferenciadas. LDA es ideal para problemas de clasificación donde las clases son linealmente separables y puede ser usado como alternativa a la regresión logística en ciertos escenarios.</p>
     </section>
     
     <footer>
